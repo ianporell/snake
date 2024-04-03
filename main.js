@@ -46,7 +46,7 @@
                 newDir = +1
                 break
         }
-        if (Math.abs(newDir) != Math.abs(inps.length == 0 ? -dir : -inps[inps.length - 1]) && inps.length <= 3) inps.push(newDir)
+        if (Math.abs(newDir) != Math.abs(inps.length == 0 ? dir : inps[inps.length - 1]) && inps.length <= 3) inps.push(newDir)
     }
     let loop = () => {
         if (inps.length > 0) dir = inps.shift()  
