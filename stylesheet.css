@@ -1,0 +1,32 @@
+#game {
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    background-color: #cae11e74;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.col {
+    background-color: #1ecae176;
+}
+
+.active {
+    background-color: #E11ECB !important;
+}
+.app {
+    background-color: #e11e1e !important;
+}
+#over-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.hid {
+    visibility: hidden;
+}
